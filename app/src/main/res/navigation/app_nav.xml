@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/app_nav"
+    app:startDestination="@id/guestListFragment">
+
+    <fragment
+        android:id="@+id/confirmationFragment"
+        android:name="com.project.disneycodechallenge_natnaelalemayehu.ui.fragments.ConfirmationFragment"
+        android:label="fragment_confirmation"
+        tools:layout="@layout/fragment_confirmation" />
+    <fragment
+        android:id="@+id/guestListFragment"
+        android:name="com.project.disneycodechallenge_natnaelalemayehu.ui.fragments.GuestListFragment"
+        android:label="fragment_guest_list"
+        tools:layout="@layout/fragment_guest_list" >
+        <action
+            android:id="@+id/action_guestListFragment_to_confirmationFragment"
+            app:destination="@id/confirmationFragment" />
+    </fragment>
+</navigation>

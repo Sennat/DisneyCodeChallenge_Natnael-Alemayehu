@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">DisneyCodeChallenge_NatnaelAlemayehu</string>
+    <string name="guests_reservation">Guests Reservation List</string>
+    <string name="guests_reserved">Guests Have Reservation</string>
+    <string name="guests_need_reservation">Guests Need Reservation</string>
+    <string name="error_msg">At least one Guest in the party must have a reservation. Guests without reservations must remain in the same booking partv in order to enter.</string>
+    <string name="confirmation_page">Confirmation Page</string>
+    <string name="btn_continue">Continue</string>
+</resources>
